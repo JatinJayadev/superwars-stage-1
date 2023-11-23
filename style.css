@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 150px 1fr;
+    justify-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+h1{
+    font-size: 30px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.characters{
+    margin: 10px;
+    border: 2px solid #DBDBDB;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    box-shadow: #CFCFCF 2px 4px 10px 2px ;
+}
+
+.scores{
+    text-align: center;
+    margin: 10px;
+}
